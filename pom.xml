@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.demo</groupId>
-	<artifactId>autotest</artifactId>
+	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>ear</packaging>
 	<name>selenium_2_combat</name>
@@ -12,7 +12,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties> 
     <build>  
-        <SourceDirectory>src</SourceDirectory>     
+        <SourceDirectory>./</SourceDirectory>     
         <plugins>  
             <plugin>  
                 <artifactId>maven-ear-plugin</artifactId>  
