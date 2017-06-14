@@ -12,20 +12,11 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties> 
     <build>  
-        <testSourceDirectory>src</testSourceDirectory>
-		<resources>
-			<resource>
-				<directory>src</directory>
-				<filtering>true</filtering>
-			</resource>
-		</resources>      
+        <SourceDirectory>src</SourceDirectory>     
         <plugins>  
             <plugin>  
                 <artifactId>maven-ear-plugin</artifactId>  
                 <version>2.9</version>
-                <configuration>
-                <testFailureIgnore>true</testFailureIgnore>
-                </configuration>
             </plugin>                  
         </plugins>  
     </build>  
