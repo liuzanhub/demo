@@ -1,0 +1,16 @@
+action.package=org.domain.testeam.session
+action.sources=/testeam-ejb/ejbModule
+eclipse.preferences.version=1
+model.package=org.domain.testeam.entity
+model.sources=/testeam-ejb/ejbModule
+seam.ear.project=testeam-ear
+seam.ejb.project=testeam-ejb
+seam.project.connection.profile=MySQL
+seam.project.deployment.type=ear
+seam.project.settings.version=1.1
+seam.project.web.root.folder=/testeam/WebContent
+seam.runtime.name=jboss-seam-2.2.2.Final
+seam.test.creating=true
+seam.test.project=testeam-test
+test.package=org.domain.testeam.test
+test.sources=/testeam-test/test-src
