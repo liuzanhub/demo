@@ -13,42 +13,6 @@
             <version>0.0.1-SNAPSHOT</version>  
             <type>jar</type>  
         </dependency>  
-        <dependency>  
-            <groupId>com.tgb</groupId>  
-            <artifactId>gxpt_common_tool</artifactId>  
-            <version>0.0.1-SNAPSHOT</version>  
-            <type>jar</type>  
-        </dependency>  
-        <dependency>  
-            <groupId>com.tgb</groupId>  
-            <artifactId>gxpt_common_eao</artifactId>  
-            <version>0.0.1-SNAPSHOT</version>  
-            <type>jar</type>  
-        </dependency>  
-        <dependency>  
-            <groupId>com.tgb</groupId>  
-            <artifactId>gxpt_common_eao_impl</artifactId>  
-            <version>0.0.1-SNAPSHOT</version>  
-            <type>jar</type>  
-        </dependency>  
-        <dependency>  
-            <groupId>com.tgb</groupId>  
-            <artifactId>gxpt_mgr_qx_module</artifactId>  
-            <version>0.0.1-SNAPSHOT</version>  
-            <type>jar</type>  
-        </dependency>  
-        <dependency>  
-            <groupId>com.tgb</groupId>  
-            <artifactId>gxpt_mgr_qx_module_impl</artifactId>  
-            <version>0.0.1-SNAPSHOT</version>  
-            <type>jar</type>  
-        </dependency>  
-        <dependency>  
-            <groupId>com.tgb</groupId>  
-            <artifactId>gxpt_web_qx_module</artifactId>  
-            <version>0.0.1-SNAPSHOT</version>  
-            <type>war</type>  
-        </dependency>  
     </dependencies>  
   
     <build>  
@@ -68,35 +32,6 @@
                             <artifactId>gxpt_entity_qx</artifactId>  
                             <includeInApplicationXml>true</includeInApplicationXml>  
                         </jarModule>  
-                        <jarModule>  
-                            <groupId>com.tgb</groupId>  
-                            <artifactId>gxpt_common_tool</artifactId>  
-                            <includeInApplicationXml>true</includeInApplicationXml>  
-                        </jarModule>  
-                        <jarModule>  
-                            <groupId>com.tgb</groupId>  
-                            <artifactId>gxpt_common_eao</artifactId>  
-                            <includeInApplicationXml>true</includeInApplicationXml>  
-                        </jarModule>  
-                        <jarModule>  
-                            <groupId>com.tgb</groupId>  
-                            <artifactId>gxpt_common_eao_impl</artifactId>  
-                            <includeInApplicationXml>true</includeInApplicationXml>  
-                        </jarModule>  
-                        <jarModule>  
-                            <groupId>com.tgb</groupId>  
-                            <artifactId>gxpt_mgr_qx_module</artifactId>  
-                            <includeInApplicationXml>true</includeInApplicationXml>  
-                        </jarModule>  
-                        <jarModule>  
-                            <groupId>com.tgb</groupId>  
-                            <artifactId>gxpt_mgr_qx_module_impl</artifactId>  
-                            <includeInApplicationXml>true</includeInApplicationXml>  
-                        </jarModule>  
-                        <webModule>  
-                            <groupId>com.tgb</groupId>  
-                            <artifactId>gxpt_web_qx_module</artifactId>  
-                        </webModule>  
                     </modules>  
                 </configuration>  
             </plugin>  
