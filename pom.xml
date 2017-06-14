@@ -5,36 +5,27 @@
     <artifactId>gxpt_b_ear</artifactId>  
     <version>0.0.1-SNAPSHOT</version>  
     <packaging>ear</packaging>  
-      
-    <dependencies>  
-        <dependency>  
-            <groupId>com.tgb</groupId>  
-            <artifactId>gxpt_entity_qx</artifactId>  
-            <version>0.0.1-SNAPSHOT</version>  
-            <type>jar</type>  
-        </dependency>  
-    </dependencies>  
-  
+     <dependencies>  
+    <dependency>  
+        <groupId>com.tgb</groupId>  
+        <artifactId>gxpt_entity_qx</artifactId>  
+        <version>0.0.1-SNAPSHOT</version>  
+        <type>jar</type>  
+    </dependency>  
+    <dependency>  
+        <groupId>com.tgb</groupId>  
+        <artifactId>gxpt_web_qx_module</artifactId>  
+        <version>0.0.1-SNAPSHOT</version>  
+        <type>war</type>  
+    </dependency>  
+</dependencies>  
     <build>  
         <plugins>  
             <plugin>  
                 <artifactId>maven-ear-plugin</artifactId>  
                 <version>2.9</version>  
-                <configuration>  
-                    <packagingIncludes>META-INF/**,**/gxpt_*.jar,**/gxpt_*.war</packagingIncludes>  
-                    <jboss>  
-                        <version>5</version>  
-                        <module-order>strict</module-order>  
-                    </jboss>  
-                    <modules>  
-                        <jarModule>  
-                            <groupId>com.tgb</groupId>  
-                            <artifactId>gxpt_entity_qx</artifactId>  
-                            <includeInApplicationXml>true</includeInApplicationXml>  
-                        </jarModule>  
-                    </modules>  
-                </configuration>  
             </plugin>  
         </plugins>  
     </build>  
-</project>  
+</project> 
+   
