@@ -5,20 +5,15 @@
 	<artifactId>demo</artifactId>
 	<version>0.0.1</version>
 	<packaging>ear</packaging>
-	<name>selenium_2_combat</name>
 	<url>http://maven.apache.org</url>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties> 
     <build>  
-·        <sourceDirectory>src</sourceDirectory>   
-        <plugins>  
             <plugin>  
                 <artifactId>maven-ear-plugin</artifactId>  
                 <version>2.9</version>
-            </plugin>                  
-        </plugins>  
+            </plugin>                    
     </build>  
 </project> 
    
