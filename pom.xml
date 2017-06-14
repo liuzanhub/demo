@@ -5,20 +5,6 @@
     <artifactId>gxpt_b_ear</artifactId>  
     <version>0.0.1-SNAPSHOT</version>  
     <packaging>ear</packaging>  
-     <dependencies>  
-    <dependency>  
-        <groupId>com.tgb</groupId>  
-        <artifactId>gxpt_entity_qx</artifactId>  
-        <version>0.0.1-SNAPSHOT</version>  
-        <type>jar</type>  
-    </dependency>  
-    <dependency>  
-        <groupId>com.tgb</groupId>  
-        <artifactId>gxpt_web_qx_module</artifactId>  
-        <version>0.0.1-SNAPSHOT</version>  
-        <type>war</type>  
-    </dependency>  
-</dependencies>  
     <build>  
         <plugins>  
             <plugin>  
