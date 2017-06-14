@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>  
     <groupId>com.tgb</groupId>  
     <artifactId>demo</artifactId>  
-    <version>.ear</version>  
+    <version>ear</version>  
     <packaging>ear</packaging>  
     <build>  
         <testSourceDirectory>src</testSourceDirectory>
